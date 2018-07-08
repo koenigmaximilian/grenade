@@ -32,6 +32,8 @@ import           Data.Proxy
 import           Data.Serialize
 import           Data.Singletons.TypeLits
 
+import           GHC.TypeLits hiding (natVal)
+
 import Control.DeepSeq (NFData (..))
 
 
