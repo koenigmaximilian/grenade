@@ -25,7 +25,6 @@ import           Data.Proxy
 import Control.Monad
 
 import           Data.Singletons.TypeLits
-import           GHC.TypeLits
 
 import           Control.Monad.Primitive         (PrimBase, PrimState)
 import           System.Random.MWC
