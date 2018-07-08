@@ -35,6 +35,8 @@ import           Data.Singletons.TypeLits
 import           Data.Vector.Storable ( Vector )
 import qualified Data.Vector.Storable as V
 
+import           GHC.TypeNats ((*))
+
 import qualified Numeric.LinearAlgebra.Static as H
 import           Numeric.LinearAlgebra.Static
 import qualified Numeric.LinearAlgebra as NLA
