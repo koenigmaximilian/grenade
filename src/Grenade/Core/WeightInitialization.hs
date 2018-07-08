@@ -30,6 +30,8 @@ import           Control.Monad.Primitive         (PrimBase, PrimState)
 import           System.Random.MWC
 import           System.Random.MWC.Distributions
 
+import           GHC.TypeLits ((*))
+
 import           Numeric.LinearAlgebra.Static
 
 
