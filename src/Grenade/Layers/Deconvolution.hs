@@ -32,7 +32,6 @@ import           Data.Proxy
 import           Data.Serialize
 import           Data.Singletons.TypeLits
 
-import           GHC.TypeLits
 import Control.DeepSeq (NFData (..))
 
 
